@@ -1,0 +1,57 @@
+.videosText{
+display: block;
+width: 50%;
+padding: 6px;
+margin: auto;
+}
+
+#videosSelect{
+  display: block;
+  width: 25%;
+  padding: 10px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border:1px solid black
+}
+.videosLabel{
+  display: block;
+  margin: 20px 0 10px;
+  text-align: left;
+  width: 50%;
+  padding: 6px;
+  margin: auto;
+
+}
+#videosButton{
+  display: block;
+  width: 15%;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#videosHeading{
+  display: block;
+  width: 25%;
+  padding: 8px;
+  margin: auto;
+  font-size: 18px;
+}
+#preview{
+  padding: 10px 20px;
+  border: 1px dotted #ccc;
+  margin:auto;
+  display: inline-block;
+  width: 50%;
+}
+#previewHeading{
+  margin-top:10px;
+  text-align: left;
+}
+#preview-container{
+  text-align: center;
+}
+.preview-para{
+  text-align: left;
+  margin-top: 10px;
+}
