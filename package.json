@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Priyam",
   "license": "MIT",
-  "homepage": "https://dj-csi.github.io/DJCSI_Portal",
+  "homepage": "https://priyamvora99/csi_web_final",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
