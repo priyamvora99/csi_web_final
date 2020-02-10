@@ -13,6 +13,7 @@
           <li v-if="showParticipants"><router-link to="/participantsExcel" exact>Participants</router-link></li>
           <li v-if="showIntraColleges"><router-link to="/intraColleges" exact>Intra College Events</router-link></li>
           <li v-if="showUserPoints"><router-link to="/userPoints" exact>User Points</router-link></li>
+          <li v-if="showQuizCharts"><router-link to="/QuizChart" exact>Quiz Charts</router-link></li>
 
           <li style="float:right" v-on:click="signOut"><a href="#">SignOut</a><!--<router-link to="/" >SignOut</router-link>--></li>
       </ul>
@@ -36,7 +37,8 @@ const state = {
   showCsiMembers:false,
   showParticipants:false,
   showIntraColleges: false,
-  showUserPoints: false
+  showUserPoints: false,
+  showQuizCharts: false
 }
 export default {
   data () {
@@ -90,6 +92,8 @@ export default {
                       self.showIntraColleges = true;
                       else if(data1.body[i]=="userPoints")
                       self.showUserPoints = true;
+                      else if(data1.body[i]=="QuizChart")
+                      self.showQuizCharts = true;
 
                 }
                 self.showSignout=true;
@@ -125,6 +129,7 @@ export default {
           self.showSignout=false;
           self.showIntraColleges = false;
           self.showUserPoints = false;
+          self.showQuizCharts = false;
 
           //console.log("Signout 2",self.loaded);
             self.$router.push('/');

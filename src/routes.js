@@ -20,6 +20,7 @@ import editQuiz from './components/editQuiz.vue';
 import editPolls from './components/editPolls.vue';
 import intraColleges from './components/intraColleges.vue';
 import userPoints from './components/userPoints.vue';
+import quizChart from './components/QuizChart.vue';
 
 export default[
   {path:'/signUp',component:Signup},
@@ -43,5 +44,6 @@ export default[
   {path:'/editQuiz',component:editQuiz},
   {path:'/editPolls',component:editPolls},
   {path:'/intraColleges',component:intraColleges},  
-  {path:'/userPoints',component:userPoints}
+  {path:'/userPoints',component:userPoints},
+  {path:'/QuizChart',component:quizChart}
 ]
