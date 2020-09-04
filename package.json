@@ -29,7 +29,7 @@
     "vue-axios": "^2.1.4",
     "vue-json-excel": "^0.2.96",
     "vue-material-design-icons": "^2.5.0",
-    "vue-moment": "^4.0.0",
+    "vue-moment": "^4.1.0",
     "vue-resource": "^1.5.1",
     "vue-router": "^3.0.2",
     "vuejs-datepicker": "^1.5.4",
